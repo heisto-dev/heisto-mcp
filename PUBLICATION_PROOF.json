@@ -1,0 +1,60 @@
+{
+  "registry": {
+    "registryUrl": "https://registry.modelcontextprotocol.io/v0.1/servers/xyz.heisto%2Farena/versions/1.0.0",
+    "name": "xyz.heisto/arena",
+    "version": "1.0.0",
+    "verifiedAtUtc": "2026-11-13T15:59:20.284Z"
+  },
+  "production": {
+    "endpoint": "https://heisto.xyz/mcp",
+    "observedAtUtc": "2026-11-13T16:03:00.247Z",
+    "inspectorVersion": "2.15.0",
+    "transport": "streamable-http",
+    "checks": [
+      {
+        "tool": "guard_check",
+        "success": true,
+        "publicLink": "https://heisto.xyz/#guard"
+      },
+      {
+        "tool": "arena_config",
+        "success": true,
+        "network": "mainnet",
+        "publicLink": "https://heisto.xyz/#arena"
+      },
+      {
+        "tool": "list_sentinels",
+        "success": true,
+        "network": "mainnet",
+        "returnedItems": 1,
+        "publicLink": "https://heisto.xyz/#arena"
+      },
+      {
+        "tool": "get_sentinel",
+        "success": true,
+        "network": "mainnet",
+        "publicLink": "https://heisto.xyz/#sentinel-3544635135356959125"
+      },
+      {
+        "tool": "recent_attempts",
+        "success": true,
+        "returnedItems": 5,
+        "publicLink": "https://heisto.xyz/#sentinel-3544635135356959125"
+      },
+      {
+        "tool": "list_sentinels",
+        "success": true,
+        "network": "practice",
+        "returnedItems": 3,
+        "publicLink": "https://heisto.xyz/#practice"
+      }
+    ]
+  },
+  "publicDomainProof": "https://heisto.xyz/.well-known/mcp-registry-auth",
+  "liveMetadata": "https://heisto.xyz/mcp/server.json",
+  "readOnly": true,
+  "walletTransactionsSubmitted": false,
+  "includesPrivateInstructions": false,
+  "includesCredentials": false,
+  "note": "Registry registration proves namespace ownership, not an audit or endorsement."
+}

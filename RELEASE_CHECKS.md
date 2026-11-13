@@ -18,6 +18,8 @@
 - Public export uses an explicit file allowlist and checks content against runtime
   credential values without printing those values.
 - HTTP domain proof, production activation and Registry publication are separate
-  from local build validation. See the live endpoint for availability.
+  from local build validation. Production HTTP domain authentication succeeded
+  and xyz.heisto/arena version 1.0.0 is active in the Official MCP Registry.
+  See PUBLICATION_PROOF.json for the production verification summary.
 
 These are development checks, not an independent security audit.

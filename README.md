@@ -15,14 +15,21 @@ The Heisto program is upgradeable and has not been independently audited.
 
 ## Release status
 
-Source and local Inspector test evidence are available in this repository.
-Production activation and Official MCP Registry publication are separate
-steps. Do not treat this README or the presence of `server.json` as proof that
-the endpoint is already live or that a Registry entry exists.
+**Live and registered:** `xyz.heisto/arena`, version `1.0.0`, was published to
+the Official MCP Registry on November 13, 2026, using HTTP domain authentication.
 
-The deployment operator must activate the app release, confirm the MCP endpoint
-and domain-proof file, then publish the Registry entry. Consult the live
-endpoint and Registry before announcing availability.
+- [Official Registry record](https://registry.modelcontextprotocol.io/v0.1/servers/xyz.heisto%2Farena/versions/1.0.0)
+- [Live server metadata](https://heisto.xyz/mcp/server.json)
+- [Public domain-ownership proof](https://heisto.xyz/.well-known/mcp-registry-auth)
+- [Release verification summary](PUBLICATION_PROOF.json)
+
+Use `https://heisto.xyz/mcp` as the client endpoint. The Registry record is
+machine-readable JSON, not a web dashboard. Registration establishes namespace
+ownership; it does not imply an endorsement, partnership or independent audit.
+
+The earlier local Inspector outputs remain labeled as development evidence.
+Production checks are summarized separately without publishing user prompts,
+raw responses or wallet histories to this source repository.
 
 ## Read-only tools
 
