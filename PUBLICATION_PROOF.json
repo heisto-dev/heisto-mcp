@@ -1,13 +1,13 @@
 {
   "registry": {
-    "registryUrl": "https://registry.modelcontextprotocol.io/v0.1/servers/xyz.heisto%2Farena/versions/1.0.0",
+    "registryUrl": "https://registry.modelcontextprotocol.io/v0.1/servers/xyz.heisto%2Farena/versions/1.0.1",
     "name": "xyz.heisto/arena",
-    "version": "1.0.0",
-    "verifiedAtUtc": "2026-11-13T15:59:20.284Z"
+    "version": "1.0.1",
+    "verifiedAtUtc": "2026-11-14T14:20:21.702Z"
   },
   "production": {
     "endpoint": "https://heisto.xyz/mcp",
-    "observedAtUtc": "2026-11-13T16:03:00.247Z",
+    "observedAtUtc": "2026-11-14T14:21:11.758Z",
     "inspectorVersion": "2.15.0",
     "transport": "streamable-http",
     "checks": [

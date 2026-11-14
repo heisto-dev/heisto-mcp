@@ -17,17 +17,17 @@ information already public on the Heisto website.
 - Retained official SDK `1.32.2` and Inspector `2.15.0`, confirmed as the latest
   stable npm releases when preparing this update.
 - The same five read-only tools and privacy boundaries are preserved.
-- Source publication does not activate a production deployment or register a
-  new Registry version. The production proof below records release `1.0.0`.
+- Production deployment and Official Registry publication of `1.0.1` are
+  complete. All five read-only tools passed production Inspector checks.
 
 The Heisto program is upgradeable and has not been independently audited.
 
 ## Release status
 
-**Live and registered:** `xyz.heisto/arena`, version `1.0.0`, was published to
-the Official MCP Registry on November 13, 2026, using HTTP domain authentication.
+**Live and registered:** `xyz.heisto/arena`, version `1.0.1`, was published to
+the Official MCP Registry on November 14, 2026, using HTTP domain authentication.
 
-- [Official Registry record](https://registry.modelcontextprotocol.io/v0.1/servers/xyz.heisto%2Farena/versions/1.0.0)
+- [Official Registry record](https://registry.modelcontextprotocol.io/v0.1/servers/xyz.heisto%2Farena/versions/1.0.1)
 - [Live server metadata](https://heisto.xyz/mcp/server.json)
 - [Public domain-ownership proof](https://heisto.xyz/.well-known/mcp-registry-auth)
 - [Release verification summary](PUBLICATION_PROOF.json)

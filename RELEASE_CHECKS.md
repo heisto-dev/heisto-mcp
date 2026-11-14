@@ -5,12 +5,13 @@
 - Source release: 1.0.1. Stable SDK and Inspector versions were
   checked against npm; both already match the latest stable releases.
 - Release regression: runtime, package and manifest version agreement is tested.
-- Current-release checks: standalone typecheck, build and privacy tests.
-  See the current GitHub commit for this release; production evidence below
-  describes the previously published release, not an unactivated deployment.
+- Current-release checks: application production build, ten focused MCP tests,
+  standalone typecheck, build and three module privacy/version tests passed.
+- Production: all five read-only tools passed official Inspector checks for
+  this release. See PUBLICATION_PROOF.json for UTC observation times.
 - Official Registry publisher: 1.8.9; release archive SHA-256 checked.
 - Registry publisher validation: server.json accepted.
-- Existing application: TypeScript production build and 195 backend tests passed,
+- Previous release baseline: TypeScript production build and 195 backend tests passed,
   including nine focused MCP transport, privacy and rate-limit tests.
 - Inspector output is attached with its UTC observation time and environment label.
   It is a development test using real available public records, not a production test.
@@ -25,7 +26,7 @@
   credential values without printing those values.
 - HTTP domain proof, production activation and Registry publication are separate
   from local build validation. Production HTTP domain authentication succeeded
-  and xyz.heisto/arena version 1.0.0 is active in the Official MCP Registry.
+  and xyz.heisto/arena version 1.0.1 is active in the Official MCP Registry.
   See PUBLICATION_PROOF.json for the production verification summary.
 
 These are development checks, not an independent security audit.
