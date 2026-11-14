@@ -3,7 +3,7 @@
   "name": "xyz.heisto/arena",
   "title": "Heisto",
   "description": "Prompt-injection Guard checks and public AI red-teaming arena data from Heisto on Solana.",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "websiteUrl": "https://heisto.xyz",
   "repository": { "url": "https://github.com/heisto-dev/heisto-mcp", "source": "github" },
   "remotes": [{ "type": "streamable-http", "url": "https://heisto.xyz/mcp" }]

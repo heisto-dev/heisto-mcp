@@ -2,6 +2,12 @@
 
 - Official runtime TypeScript SDK: 1.32.2.
 - Official MCP Inspector: 2.15.0.
+- Source release: 1.0.1. Stable SDK and Inspector versions were
+  checked against npm; both already match the latest stable releases.
+- Release regression: runtime, package and manifest version agreement is tested.
+- Current-release checks: standalone typecheck, build and privacy tests.
+  See the current GitHub commit for this release; production evidence below
+  describes the previously published release, not an unactivated deployment.
 - Official Registry publisher: 1.8.9; release archive SHA-256 checked.
 - Registry publisher validation: server.json accepted.
 - Existing application: TypeScript production build and 195 backend tests passed,

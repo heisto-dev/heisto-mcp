@@ -9,7 +9,16 @@ information already public on the Heisto website.
 **Endpoint:** `https://heisto.xyz/mcp`  
 **Transport:** Streamable HTTP, stateless  
 **Authentication for reading:** none  
-**Namespace:** `xyz.heisto/arena`, version `1.0.0`
+**Namespace:** `xyz.heisto/arena`, source version `1.0.1`
+
+## Source release 1.0.1
+
+- Added a regression check keeping runtime, package and both manifests aligned.
+- Retained official SDK `1.32.2` and Inspector `2.15.0`, confirmed as the latest
+  stable npm releases when preparing this update.
+- The same five read-only tools and privacy boundaries are preserved.
+- Source publication does not activate a production deployment or register a
+  new Registry version. The production proof below records release `1.0.0`.
 
 The Heisto program is upgradeable and has not been independently audited.
 

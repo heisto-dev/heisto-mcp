@@ -1,8 +1,17 @@
 import { describe, expect, it } from 'vitest';
 import { createPublicMcpReader } from './src/mcp/public-reader.js';
 import { guardScore } from './src/lib/guard.js';
+import { MCP_VERSION } from './src/mcp/server.js';
+import { readFileSync } from 'node:fs';
 
 describe('Public MCP module boundaries', () => {
+  it('keeps runtime, root manifest, source manifest and package versions aligned', () => {
+    const read = (file: string) => JSON.parse(readFileSync(new URL(file, import.meta.url), 'utf8'));
+    const manifest = read('./server.json');
+    expect(MCP_VERSION).toBe(manifest.version);
+    expect(read('./src/mcp/server.json').version).toBe(manifest.version);
+    expect(read('./package.json').version).toBe(manifest.version);
+  });
   it('selects public fields only and cannot return encrypted or pending data', async () => {
     const statements: string[] = [];
     const privateMarker = 'TEST_FIXTURE_NOT_A_REAL_SECRET';

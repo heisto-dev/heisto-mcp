@@ -3,7 +3,7 @@ import { z } from 'zod';
 import { guardScore } from '../lib/guard.js';
 import { SITE, type PublicMcpReader } from './public-reader.js';
 
-export const MCP_VERSION = '1.0.0';
+export const MCP_VERSION = '1.0.1';
 const annotations = {
   readOnlyHint: true, openWorldHint: false, destructiveHint: false, idempotentHint: true,
 };
